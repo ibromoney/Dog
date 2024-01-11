@@ -16,7 +16,7 @@
     position: sticky;
     top: 0%;
     z-index: 1;
-    border-bottom: 1px solid tomato;
+    border-bottom: 1px solid white;
     
 }
 
@@ -253,6 +253,7 @@ text-align: center;
 
 .container-4 {
     width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -559,7 +560,6 @@ span:hover   {
     width: 40%;
     outline: none;
     border: 1px solid white;
-    
     font-size: 1.0rem;
     padding: 10px;
 }
@@ -568,13 +568,12 @@ span:hover   {
 
 .container-2 {
     flex-direction: column;
+    margin-top: 50px;
 }
 .box1 {
-    
     width: 100%;
     margin: 0%;
-    margin-top: 300px;
-    
+    margin-top: 300px;  
 }
 
 .box1  img  {
@@ -592,7 +591,7 @@ span:hover   {
 
 .container3 {
     flex-direction: column;
-    margin-top: 900px;
+    margin-top: 940px;
     
 }
 
@@ -603,11 +602,13 @@ span:hover   {
 
 .box-1  h1 {
     font-size: 1.5rem;
+    color: black;
     
 }
 
 .container-3 {
     flex-direction: column;
+    padding: 10px;
     
     
 }
@@ -621,24 +622,36 @@ span:hover   {
 }
 
 .container-4 {
-   margin-top: 500px; 
+   margin-top: 450px; 
     
+}
+
+.container-4  h1{
+    color: black;
 }
 
 .container-4   .box-1 {
     width: 100%;    
+}
+
+.container-5{
+    padding: 5px;
 }
    .container-6 {
     
     flex-direction: column;
    } 
   
+
+   .container-6  h1 {
+    color: black;
+   }
    .container-6   .box-1 {
     width: 100%;
 }
 .blog {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
 }
 .blog  .box1  {
     margin-top: 550px;
@@ -646,7 +659,7 @@ span:hover   {
 }
 .blog  .box2 {
     margin-top: 150px;
-    width: 97%;
+    width: 90%;
     
 }
 .blog  .box2  button {
@@ -666,7 +679,7 @@ span:hover   {
 }
 
 .footer {
-    margin-top: 650px;
+    margin-top: 600px;
     flex-direction: column;
     height: fit-content;
 
